@@ -171,4 +171,167 @@ header{
 }
 .parent-target{
     display: flex;
+    gap: 24px;
+    margin-bottom: 111px;
+}
+.html-box{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.html-box h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin: 8px 0px;
+}
+.html-box p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 8px 0px;
+    text-align: left;
+    opacity: 0.7;
+}
+.html-box a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+.css-box{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.css-box h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin: 8px 0px;
+}
+.css-box p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 8px 0px;
+    text-align: left;
+    opacity: 0.7;
+}
+.css-box a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+.js-box{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.js-box h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin: 8px 0px;
+}
+.js-box p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 8px 0px;
+    text-align: left;
+    opacity: 0.7;
+}
+.js-box a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+/* ---------------End-My-Target--------- */
+
+footer{
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px 48px 64px 48px;
+    width: 1140px;
+    height: 313px;
+    left: 150px;
+    right: 150px;
+    top: 4752px;
+    background-position: center;
+    border-radius: 16px;
+}
+.footer-box h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 19px;
+}
+.footer-box p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+.form{
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+}
+.form-text{
+    width: 548px;
+    height: 57px;
+    margin: 0px 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    border: 2px solid rgb(162, 154, 154);
+    backdrop-filter: blur(10px);
+
+}
+.btn-2{
+    margin: 0px 16px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    color: white;
+    border: 2px solid rgb(162, 154, 154);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+.form input::placeholder{
+    color: white;
+}
+/* ---------------All-End--- */
+.credit{
+    display: flex;
 }
