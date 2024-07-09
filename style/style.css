@@ -1,0 +1,63 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  main{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ---------------------shear code--------------------------------- */
+.sub-title{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin: 0 73px 32px 73px;
+}
+
+
+
+
+/* ------------------header>banner-section-------------------- */
+header{
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 580px;
+}
+.banner-section{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.banner-section h1{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.banner-section a{
+    text-decoration: none;
+    background-color: black;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    color: white;
+    transition: 2s;
+}
+.banner-section a:hover{
+    background-color: lightskyblue;
+    color: black;
+}
+----------------------------
