@@ -146,11 +146,13 @@ header{
     margin-bottom: 48px;
 }
 .video{
-    box-sizing: border-box;
-    padding: 32px;
+    padding: 25px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     margin-bottom: 150px;
+}
+.video iframe{
+    border-radius: 16px;
 }
 /* ---------------------------------my parent-target-------------------------------------------------- */
 .my-target h2{
@@ -331,16 +333,22 @@ footer{
 .form input::placeholder{
     color: white;
 }
+#foter{
+    margin-bottom: 80px;
+}
 /* ---------------All-End--- */
 .credit{
-    display: flex;
+    display: flex; 
     margin: 0 auto;
-
-    
+    padding: 32px 150px 0px 150px;
+    background: rgba(13, 19, 33, 0.03);
+    justify-content: space-between;
 }
 .credit-box{
-    justify-content: space-between;
+    padding: 32px 150px 32px 150px;
     border-radius: 16px;
     margin-top: 80px;
-    background: rgba(13, 19, 33, 0.03);
+}
+.create-item a{
+    padding-left: 24px;
 }
